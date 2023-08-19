@@ -1,0 +1,88 @@
+/* Add styles for the calculator container */
+.calculator {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style calculator buttons */
+.buttons .btn {
+    font-size: 24px;
+    margin: 5px;
+}
+
+/* Style operator and equal buttons */
+.operator, .equal {
+    background-color: #fcbf49;
+    color: #fff;
+}
+
+/* Style clear button */
+.clear {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+
+
+/* Add a dark gray background */
+body {
+  background-color: #333; /* Dark gray or black */
+  color: white; /* Text color */
+}
+
+/* Style the calculator container */
+.calculator {
+  background-color: #444; /* Darker gray for calculator */
+  border: 2px solid #555; /* Slightly lighter gray border */
+}
+
+/* Style the buttons */
+.btn-primary {
+  background-color: #3498db; /* Blue */
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #e74c3c; /* Red */
+  color: white;
+}
+
+.btn-light {
+  background-color: #2ecc71; /* Green */
+  color: white;
+}
+
+/* Style the equal button separately */
+.equal {
+  background-color: #9b59b6; /* Purple */
+  color: white;
+}
+
+/* Style the result display */
+#result {
+  background-color: #555; /* Dark gray */
+  color: white; /* White text */
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Center the text in the buttons */
+.btn {
+  text-align: center;
+}
+
+/* Add some extra styling to make it more visually appealing */
+.container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  color: #3498db; /* Blue */
+}
+
+p {
+  color: #2ecc71; /* Red */
+  font-size: 18px;
+}
